@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucky Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>🎉 Lucky Draw Entry Form 🎉</h2>
+    <form id="entryForm">
+      <input type="text" id="name" placeholder="👤 Full Name" required>
+      <input type="tel" id="contact" placeholder="📱 Contact Number" required>
+      <input type="email" id="email" placeholder="📧 Email Address" required>
+      <input type="text" id="organization" placeholder="🏢 Organization Name" required>
+      <input type="text" id="jobTitle" placeholder="💼 Job Title" required>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="loader" class="hidden">
+      <img src="assets/loading.gif" alt="Loading..." />
+    </div>
+
+    <div id="resultMessage" class="hidden"></div>
+
+    <footer>© Created by EventIQ</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
