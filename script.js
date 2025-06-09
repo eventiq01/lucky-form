@@ -4,7 +4,7 @@ const result = document.getElementById('resultMessage');
 const formContainer = document.querySelector('form');
 
 // Replace with your Apps Script Web App URL
-const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzaxtOncn-ebaeGTztT2D-3tOTGIQ0wzo1kFOsCoeHIaqQpWLoy9LkQi8RPMaTCCvGdXQ/exec';
+const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzgvIg0pAZSqMTQd6EN_N50BZSWBg9V0gD0H3GZIn5Gp2X_uX5J4mA6ALrrD0qNx7ojEg/exec';
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
